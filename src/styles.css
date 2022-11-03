@@ -1,0 +1,356 @@
+body {
+  font-family: Century Gothic;
+  padding: 0; 
+}
+
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("beach.jpeg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 350vh;
+}
+ul{
+  margin-top: 2%;
+  margin-right: 2%;
+  float: right;
+  list-style-type: none;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  
+}
+ul li{
+  display: inline-block;
+  
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 1vh 4vh;
+  border: 1px solid #fff;  
+  transition: 0.4s ease;
+  background-color: black;
+  
+}
+a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none ;
+  color: #fff;
+  padding: 0.5vh 3vh;
+  border: 1px solid #fff; 
+}
+.THEMEPARK a{
+  text-decoration: none;
+  color: #fff;
+  padding: 1vh 4vh;
+  border: 1px solid #fff;  
+  transition: 0.4s ease;
+  background-color: black;
+}
+.THEMEPARK a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none ;
+  color: #fff;
+  padding: 0.5vh 3vh;
+  border: 1px solid #fff; 
+}
+
+
+.main{
+  min-width: 900px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 20vh;
+  left: 55%;
+  transform: translate(-50%,-20%);
+  max-width:50%;
+  min-width:800px;
+  max-height:500px;
+  min-height:21%;
+}
+.title h1{
+  font-size: 80px;
+  color: white;
+  padding: 10px 10px;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+}
+.homepara{
+  position: absolute;
+  top: 45vh;
+  left: 50%;
+  transform: translate(-50%,-20%);
+  max-width:50%;
+  min-width:800px;
+  max-height:500px;
+  min-height:21%;
+}
+.homepara p {
+  font-size: 4vh;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.MINIGOLF{
+  position: absolute;
+  text-align: center;
+  top: 105vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("Minigolf.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.header1{
+  position: absolute;
+  top: 20vh;
+  left: 50%;
+  transform: translate(-50%,-20%);
+  max-width:50%;
+  min-width:800px;
+  max-height:500px;
+  min-height:21%;
+}
+
+.header1 h1{
+  font-size: 80px;
+  color: white;
+  padding: 10px 10px;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+}
+
+.para1{
+  position: absolute;
+  top: 45vh;
+  left: 50%;
+  transform: translate(-50%,-20%);
+  max-width:50%;
+  min-width:800px;
+  max-height:500px;
+  min-height:21%;
+}
+
+.para1 p{
+  font-size: 4vh;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.dropdown{
+ position: relative;
+ display: inline-block;
+ right: 40%;
+}
+.btn{
+  background-color: gray;
+  color: white;
+  padding: 16px;
+  font-size: 3vh;
+  border: none;
+}
+
+.content{
+  color: white;
+  display: none;
+  position: absolute;
+  background-color: #D3D3D3;
+  padding: 12px 16px;
+  z-index: 1;
+  font-size: 3vh;
+}
+
+.dropdown:hover .content{
+  display: block;
+  text-align: left;
+  width: 50vh;
+}
+
+.dropdown:hover .btn{
+  background-color:#D3D3D3;
+}
+
+
+.POOL{
+  position: absolute;
+  text-align: center;
+  top:210vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("pool.jpeg");
+  height: 100vh;
+  width:100%;
+  background-size: cover;
+  background-position: center;
+}
+.header2{
+  position: absolute;
+  top: 20vh;
+  left: 50%;
+  transform: translate(-50%,-20%);
+  max-width:50%;
+  min-width:800px;
+  max-height:500px;
+  min-height:21%;
+}
+
+.header2 h1{
+  font-size: 80px;
+  color: white;
+  padding: 10px 10px;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+}
+
+.para2{
+  position: absolute;
+  top: 45vh;
+  left: 50%;
+  transform: translate(-50%,-20%);
+  max-width:50%;
+  min-width:800px;
+  max-height:500px;
+  min-height:21%;
+}
+
+.para2 p{
+  font-size: 4vh;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.POOLdrpdwn{
+ position: relative;
+ display: inline-block;
+ right: 40%;
+}
+.Pbtn{
+  background-color: gray;
+  color: white;
+  padding: 16px;
+  font-size: 3vh;
+  border: none;
+}
+.Pcontent{
+  color: white;
+  display: none;
+  position: absolute;
+  background-color: #D3D3D3;
+  padding: 12px 16px;
+  z-index: 1;
+  font-size: 3vh;
+}
+
+.POOLdrpdwn:hover .Pcontent{
+  display: block;
+  text-align: left;
+  width: 50vh;
+}
+
+.POOLdrpdwn:hover .Pbtn{
+  background-color:#D3D3D3;
+}
+
+.THEMEPARK{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("musuem.jpg");
+  position: absolute;
+  text-align: center;
+  top: 315vh;
+  height: 100vh;
+  width:100%;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.header3{
+  position: absolute;
+  top: 20vh;
+  left: 50%;
+  transform: translate(-50%,-20%);
+  max-width:50%;
+  min-width:800px;
+  max-height:500px;
+  min-height:21%;
+}
+
+.header3 h1{
+  font-size: 80px;
+  color: white;
+  padding: 10px 10px;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+}
+
+.para3{
+  position: absolute;
+  top: 45vh;
+  left: 50%;
+  transform: translate(-50%,-20%);
+  max-width:50%;
+  min-width:800px;
+  max-height:500px;
+  min-height:21%;
+}
+
+.para3 p{
+  font-size: 4vh;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.THEMEPARK a{
+  background-color: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+  padding: 1vh 4vh;
+  border: 1px solid #fff;  
+  position: absolute;
+  font-size: 4vh;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+}
+
+.MUSEUMdrpdwn{
+ position: relative;
+ display: inline-block;
+ right: 40%;
+}
+.Mbtn{
+  background-color: gray;
+  color: white;
+  padding: 16px;
+  font-size: 3vh;
+  border: none;
+}
+.Mcontent{
+  color: white;
+  display: none;
+  position: absolute;
+  background-color: #D3D3D3;
+  padding: 12px 16px;
+  z-index: 1;
+  font-size: 3vh;
+}
+
+.MUSEUMdrpdwn:hover .Mcontent{
+  display: block;
+  text-align: left;
+  width: 50vh;
+}
+
+.MUSUEMdrpdwn:hover .Mbtn{
+  background-color:#D3D3D3;
+}
+
+
+
+  
+
